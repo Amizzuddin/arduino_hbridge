@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "/home/rnd/workspace/arduino/ide/libraries/**",
+                "/home/rnd/workspace/arduino/ide/hardware/arduino/avr/cores/arduino/**",
+                "/home/rnd/workspace/arduino/ide/hardware/arduino/avr/libraries/**",
+                "/home/rnd/workspace/arduino/ide/hardware/arduino/avr/variants/**",
+                "/home/rnd/workspace/arduino/ide/hardware/tools/avr/avr/include/**",
+                "/home/rnd/workspace/arduino/ide/hardware/arduino/avr/**",
+                "/home/rnd/workspace/arduino/ide/hardware/arduino/avr/**",
+                "/home/rnd/workspace/arduino/sketches/libraries/**"
+            ],
+            "defines": [
+                "USBCON"
+            ],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "gcc-x64",
+            "forcedInclude": [
+                "/home/rnd/workspace/arduino/ide/hardware/arduino/avr/cores/arduino/Arduino.h"
+            ]
+        }
+    ],
+    "version": 4
+}
