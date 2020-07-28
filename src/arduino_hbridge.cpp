@@ -1,7 +1,7 @@
 /*L298N(Motor Driver) Library for arduino, Created by Amizzuddin, Nov 08 2019*/
 
 #include "Arduino.h"
-#include "hbridge.h"
+#include "arduino_hbridge.h"
 
 HBRIDGE::HBRIDGE(byte input1, byte input2){
     //make it clear that the variables is private

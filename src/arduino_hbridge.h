@@ -32,7 +32,7 @@ class HBRIDGE{
     void drive_motor(byte direction);
 
  private:
-    byte _in[3] ;
+    byte _in[TOTAL_INPUT] ;
 };
 
 #endif
