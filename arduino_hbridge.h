@@ -10,6 +10,7 @@
 #define ARDUINO_HBRIDGE_H
 
 #define TOTAL_INPUT 2
+#define STOP 0
 
 class HBRIDGE{
  public:

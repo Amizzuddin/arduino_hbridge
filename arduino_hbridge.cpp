@@ -9,7 +9,7 @@ HBRIDGE::HBRIDGE(byte input1, byte input2){
 	_in[1] = input2;
 
     //initialize motor as not moving
-	drive_motor(0, 0);
+	drive_motor(STOP);
 }
 
 void HBRIDGE::initialize(){
